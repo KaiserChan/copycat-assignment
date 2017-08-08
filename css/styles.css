@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: helvetica, monospace, serif, sans-serif;
+}
+
+
+/*HEADER STYLE BELOW----------------------------------------------------------*/
+
+header {
+  background-color: #06d6a0;
+  display: block;
+  overflow: hidden;
+  padding: 0 20px:
+}
+
+.logo {
+  font-size: 1.2rem;
+  color: white;
+  float: left;
+  padding: 20px;
+}
+
+.navbar {
+  float: right;
+  list-style-type: none;
+}
+
+.nav-item {
+  float: right;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+/*MAIN STYLE BELOW----------------------------------------------------------*/
+
+main {
+  max-width: 900px;
+  margin: auto;
+  display: block;
+}
+
+/*Welcome style below*/
+.welcome {
+  overflow: hidden;
+  background-color: #26547c;
+  border-bottom: 2px solid #26547c;
+}
+
+.cat-group-image {
+  width: 60%;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cat-group-content {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+/*Cats style below*/
+.cats {
+  overflow: hidden;
+  background-color: #ffd166;
+  padding: 25px;
+}
+
+.cats-content-items {
+  padding: 15px 0;
+  font-size: 1.1rem;
+  line-height: 120%;
+}
+
+/*Products style below*/
+.products {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  padding: 45px 25px;
+}
+
+.products-content {
+  padding-bottom: 25px;
+}
+
+.products-content-items {
+  padding-bottom: 25px;
+  font-size: 1.1rem;
+  line-height: 120%;
+}
+
+.products-listings {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+
+.products-listings-items {
+  border: 2px solid black;
+  float: left;
+  width: 30%;
+  margin: 14px;
+}
+
+/*Features style below*/
+
+.features {
+  overflow: hidden;
+  background-color: #265481;
+  padding: 45px 25px 30px;
+}
+
+.features-overview {
+  padding-bottom: 25px;
+}
+
+.features-listing {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features-listings-items {
+  width: 33.33%;
+  float: left;
+  font-size: 1.5rem;
+  color: #ef476f;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.feature-content p {
+  color: white;
+  font-size: 1.1rem;
+  padding-bottom: 25px;
+  line-height: 120%;
+}
+
+/*Footer style below*/
+footer {
+  text-align: right;
+  background-color: #06d6a0;
+  display: block;
+  padding: 20px;
+  font-size: 1.1rem;
+}
